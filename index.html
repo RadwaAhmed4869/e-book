@@ -223,7 +223,11 @@
           </div>
           <div class="col-lg-6">
             <div class="image-container p-5">
-              <img src="images/description.png" alt="" class="img-fluid" />
+              <img
+                src="images/description.png"
+                alt="Book description"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
@@ -238,7 +242,11 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="image-container">
-                <img src="images/description.png" alt="" class="img-fluid" />
+                <img
+                  src="images/description.png"
+                  alt="Book description"
+                  class="img-fluid"
+                />
               </div>
             </div>
             <div class="col-lg-6">
@@ -313,7 +321,11 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="image-container p-5">
-              <img src="images/author.png" alt="" class="img-fluid" />
+              <img
+                src="images/author.png"
+                alt="Author photo"
+                class="img-fluid"
+              />
             </div>
           </div>
           <div class="col-lg-6">
@@ -366,7 +378,11 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="image-container">
-                <img src="images/author.png" alt="" class="img-fluid" />
+                <img
+                  src="images/author.png"
+                  alt="Author photo"
+                  class="img-fluid"
+                />
               </div>
             </div>
             <div class="col-lg-6">
@@ -411,13 +427,13 @@
     </div>
 
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section class="testimonials mb-8">
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center">
             <img
               src="https://randomuser.me/api/portraits/men/55.jpg"
-              class="img-fluid rounded-circle mb-4"
+              class="img-fluid rounded-circle mb-3"
             />
             <p class="fst-italic lead fw-normal">
               "This ebook completely transformed my blogging journey. The
@@ -429,7 +445,7 @@
           <div class="col-md-4 text-center">
             <img
               src="https://randomuser.me/api/portraits/women/54.jpg"
-              class="img-fluid rounded-circle mb-4"
+              class="img-fluid rounded-circle mb-3"
             />
             <p class="fst-italic lead fw-normal">
               "I'm so grateful for this ebook! It provided me with the guidance
@@ -441,7 +457,7 @@
           <div class="col-md-4 text-center">
             <img
               src="https://randomuser.me/api/portraits/men/66.jpg"
-              class="img-fluid rounded-circle mb-4"
+              class="img-fluid rounded-circle mb-3"
             />
             <p class="fst-italic lead fw-normal">
               "I can't recommend this ebook enough. It's a treasure of blogging
@@ -455,19 +471,21 @@
     </section>
 
     <!-- Download -->
-    <section class="download-section">
+    <section class="download">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <img
-              src="images/download-ebook.png"
-              alt="Download book poster"
-              class="download-image img-fluid"
-            />
+            <div class="image-container mt-n6 mb-5">
+              <img
+                src="images/download-ebook.png"
+                alt="Download book poster"
+                class="img-fluid"
+              />
+            </div>
           </div>
           <div class="col-lg-7">
             <div
-              class="text-container d-flex flex-column justify-content-center h-100"
+              class="text-container text-white d-flex flex-column justify-content-center h-100 mb-5"
             >
               <h2 class="fw-bold">Get Your Free Ebook Now</h2>
               <p>
@@ -475,14 +493,17 @@
                 the next level. Our ebook, "Blog Mastery: The Ultimate Guide to
                 Blogging Success," is your key to success.
               </p>
-              <div class="input-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Email Adress"
-                />
-                <a href="#" class="btn btn-primary text-white">Download</a>
-              </div>
+              <!-- Form -->
+              <form>
+                <div class="input-group mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                  <button class="btn btn-primary text-white rounded-end">Download</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
