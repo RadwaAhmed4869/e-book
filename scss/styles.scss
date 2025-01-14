@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+
   .hero .image-container {
     display: flex;
     justify-content: center;
